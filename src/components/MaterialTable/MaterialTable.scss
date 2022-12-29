@@ -1,0 +1,27 @@
+.MuiTableHead-root {
+
+    .MuiButtonBase-root {
+        color: #000 !important;
+        font-weight: 600;
+        font-family: system-ui;
+    }
+
+    
+}
+
+.MuiTableCell-alignRight {
+    text-align: center !important;
+}
+
+.link_url {
+    color: #007bff !important;
+
+    &:hover {
+        color:red !important;
+    }
+}
+.retaiter-table {
+    .MuiTableSortLabel-icon {
+        display: none !important;
+    }
+}

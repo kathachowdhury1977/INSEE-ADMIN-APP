@@ -1,0 +1,22 @@
+.HomeContainer {
+ position: relative;
+}
+
+
+.languageselector {
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    -ms-transform: translate(-38%, 0%);
+    transform: translate(-38%, 0%);
+    margin-top: 39px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500
+}

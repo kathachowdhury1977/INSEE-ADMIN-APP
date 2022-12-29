@@ -1,0 +1,39 @@
+.each-slide  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+  }
+  
+  .each-slide span {
+    padding: 0px;
+    font-size: 0px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    top: 38px;
+    bottom: 27px;
+  }
+
+  .prod_image {
+    position: relative;
+
+    i {
+      position: absolute;
+      right: 3px;
+      top: 3px;
+      color: #fff;
+      font-size: 18px;
+      background-color: red;
+      padding: 4px 6px;
+      cursor: pointer;
+    }
+  }
+
+  .slider_section {
+    .carousel {
+      height: 200px;
+    }
+  }

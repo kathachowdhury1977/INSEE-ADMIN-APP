@@ -1,0 +1,41 @@
+.UpBlkContainer {
+  width: 350px;
+  .UpldBlkHdr {
+    text-align: center;
+  }
+
+  .userImageContainer {
+    height: 14%;
+    margin-left: 1%;
+    margin-top: 4%;
+    .UpldBlkInput {
+      display: flex;
+      justify-content: center;
+    }
+    .ImgUploadBtn {
+      margin: 1% 0 0 8%;
+    }
+    .ImgSubmitBtn {
+      margin: 5% 0 0 8%;
+    }
+    .ImgTxt {
+      position: relative;
+      top: 5%;
+    }
+  }
+
+  .UpldBlkBtnContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    .SaveBtn {
+      background-color: #ff0000;
+      color: #f5f5f5;
+      margin-right: 36%;
+      &:hover {
+        background-color: #ff0000;
+        color: #f5f5f5;
+      }
+    }
+  }
+}

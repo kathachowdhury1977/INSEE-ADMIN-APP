@@ -1,0 +1,37 @@
+.main div{
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    .MuiTablePagination-toolbar p{
+        margin-top: auto !important;
+         margin-bottom: auto !important;
+    }
+    .EditIcon{
+        cursor: pointer;
+    }
+    .DeleteIcon{
+        cursor: pointer;
+    }
+    .hearderContainer{
+        margin-bottom: 20px;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        .textContainer{
+            padding-left: 10px; 
+           }
+           .headerText{
+            padding: 6px 0px 0px 0px;            
+        }
+           .headerText span:first-of-type{
+           min-width: 184px;
+           display: inline-block;
+           font-weight: bold;
+           font-size: 0.835rem;
+           }
+
+    }
+.itemEditForm{
+    .MuiTextField-root{
+        padding-bottom: 10px;
+    }
+  
+}

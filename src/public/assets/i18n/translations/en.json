@@ -1,0 +1,10 @@
+{
+
+  "login.label": "LOGIN TO YOUR ACCOUNT",
+  "login.button": "LOGIN",
+  "welcome.label": "Welcome",
+  "email.label": "Email",
+  "password.label": "Password",
+  "nav.dashboard" : "Dashboard"
+  
+}

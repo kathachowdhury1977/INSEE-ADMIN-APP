@@ -1,0 +1,9 @@
+{
+
+  "login.label": "ลงชื่อเข้าใช้บัญชีของคุณ ",
+  "login.button": "เข้าสู่ระบบ",
+  "welcome.label": "ยินดีต้อนรับ ",
+  "email.label": "อีเมล์",
+  "password.label": "รหัสผ่าน",
+  "nav.dashboard" : "แผนวันนี้"
+}

@@ -1,0 +1,110 @@
+.product_master_detail {
+
+    .product_left_section {
+
+        .slider_section {
+            img {
+                width: 100%;
+                height: 200px;
+            }
+
+            .carousel-control-next-icon, .carousel-control-prev-icon {
+                background-color: black;
+                width: 23px;
+                height: 34px;
+            }
+        }
+        .product_desc {
+            margin-top: 15px;
+
+            h5 {
+                font-size: 14px;
+                font-weight: 600;
+                display: inline-flex;
+            }
+
+            p {
+                font-size: 12px;
+                text-align: justify;
+                letter-spacing: 0.3px;
+            }
+
+            i {
+                // float: left;
+                margin-top: -25px;
+                margin-left: 8px;
+                // margin-left: 129px;
+            }
+        }
+    }
+
+    .product_right_section {
+        .title_key {
+            color: #000;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 0px;
+            width: auto;
+           
+            margin-right: 10px;
+            margin-top: 2px
+        }
+        .title_value {
+            font-size: 14px;
+            color: #333;
+        }
+
+    }
+
+    .sales_dostributor {
+        margin-top: 20px;
+        margin-left: 0px;
+        h6 {          
+            font-size: 14px;
+            display: inline-block;
+            min-width: 99%;
+            border-bottom: 1px solid #929292;
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+
+        label {
+            font-size: 11px;
+            font-weight: 600;
+            color: #000;
+        }
+        p{
+            font-size: 11px;
+        }
+    }
+}
+
+.uploadImage {
+    font-size: 14px;
+    color: #000;
+    margin-top: 15px;
+    font-weight: 600;
+    
+    i {
+        margin-right: 10px;
+    }
+}
+
+.loyality_sec{
+    display: inherit;
+    justify-content: space-between;
+}
+
+.assign_points{
+    margin-top: -7px;
+
+    .guideline_popup {
+        display: inline;
+        float: right;
+        span{
+
+            font-size: 10px;
+        }
+    }
+   
+}

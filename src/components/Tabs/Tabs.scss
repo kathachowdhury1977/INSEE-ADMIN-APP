@@ -1,0 +1,57 @@
+.tabs_Section {
+    .MuiAppBar-colorPrimary {
+        background-color: transparent;
+    }
+
+    .Mui-selected {
+        // background-color: red;
+        // color:#fff !important;
+        font-weight: 600;
+        border-bottom: 0px !important;
+        color: red !important;
+        pointer-events: none;
+    }
+
+    .MuiTabs-fixed {
+        display: none;
+    }
+
+     .MuiAppBar-root {
+        display: none !important;
+    }
+
+    .MuiTabs-indicator {
+        height: 0px;
+    }
+
+    .MuiButtonBase-root-MuiTab-root {
+        min-width: 100%;
+    }
+
+    .MuiTab-root {
+        color: #000;;
+        margin-right: 15px;
+        // border: 1px solid #000;
+    }
+    .MuiAppBar-root {
+        flex-direction: row !important;
+        height: 48px;
+        width: 100%;
+    }
+
+    header {
+        box-shadow: none !important;
+    }
+
+    .tabpanel_box {
+        border: 1px solid #ccc;
+    }   
+}
+
+.MuiTabs-root .MuiButtonBase-root .MuiSvgIcon-fontSizeSmall{
+    fill:inherit
+}
+.tabGap{
+    padding: 0px 12px !important;
+}
+

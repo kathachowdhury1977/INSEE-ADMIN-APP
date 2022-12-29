@@ -1,0 +1,143 @@
+.ExportAndSearchContainer{
+    position:absolute;
+    display: flex;
+    right: 10px;
+}
+.Action{
+    .EditIcon{
+        margin-left: 20%;
+    }
+    .DeleteIcon{
+        margin-left: 20%;
+    }
+}
+.MarkDelChkBox{
+    // margin-left: 30%;
+}
+.user_image {
+    height: 42px;
+    width: 43px;
+    border-radius: 40%;
+    margin-right: 7px;
+}
+.ContactContainer{
+    margin: 2% 0 2% 0;
+    .AddAndSearch{
+        display:flex;
+        justify-content: space-between;
+        .AddContactBtn{
+            background-color: #FF0000;
+            color: #f5f5f5;
+        }
+        .ExportAndSearchContainer{
+            position:absolute;
+            display: flex;
+            right: 10px;
+        }
+    }
+
+}
+.DataGridContainer{
+    height: 400px;
+    width: 100%;
+}
+
+.ContactDataGridContainer {
+    height: calc(100vh - 280px);
+    width: 100%;
+    margin-left: 10px;
+  }
+
+.checkBOxControl{
+    flex-wrap: wrap;
+    flex-direction: row !important;
+}
+
+.MuiFormControl-root.checkBOxControl .MuiCheckbox-root {
+    padding: 7px !important;
+}
+.makeStyles-root-1.MuiFormControl-root { 
+    margin-bottom: 9px !important;
+}
+
+.ControllForm {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.outlineButton{
+    border:1px solid #9c27b0 !important
+}
+
+.user_image1{
+    height: 25px;
+    width: 25px;
+}
+.GridContainer .MuiFormControl-root{
+    margin-bottom: 10px !important;
+}
+.BtnSubContainer .SaveBtn{
+    background-color: #FF0000;
+    color: #f5f5f5;
+    margin-right: 36%;
+}
+.BtnSubContainer .SaveBtn:hover{
+    background-color: #FF0000;
+    color: #f5f5f5;
+}
+.MuiTablePagination-selectLabel{
+    margin-bottom: 0px !important;
+}
+.MuiTablePagination-displayedRows{
+    margin-bottom: 0px !important;
+}
+
+.MuiFormControl-root.subDealerCheckbox{
+    width: auto !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 7px;
+    span{
+        padding: 3px;
+        font-size: .80rem;
+        line-height: 1;
+    }
+}
+.Action .EditIcon{
+color:black
+}
+.css-k4qjio-MuiFormHelperText-root{
+    margin-left:0px
+}
+.MuiFormHelperText-root.Mui-error{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.outlineButton{
+    border:1px solid #9c27b0 !important
+}
+.subDealerBtnAddSave{
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+.subDealerBtnAddCancel{
+    margin-top: 66px;
+    margin-bottom: 5px;
+}
+.subDealerBtnEditSave{
+    margin-top: 20px;
+}
+.subDealerBtnEditCancel{
+    margin-top: 28px;
+    margin-bottom: 4px;
+}
+@media screen and (min-width: 992px) {
+    .hideOnMd{
+        display: none;
+    }
+  }
+
+
+  @media screen and(max-width: 400px) { // reduced the width of mainscrollbar
+    .mainScroll-subdealer {
+      width: calc(49vh);
+    }
+  }

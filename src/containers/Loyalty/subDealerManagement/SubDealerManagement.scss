@@ -1,0 +1,30 @@
+.SubDealerContactContainer {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 1px;
+  .ContactHeader {
+    display: flex;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px 0 11px;
+    h6 {
+      margin-right: 50px;
+      font-size: 14px;
+      font-weight: 600;
+      span {
+        margin-top: 3px;
+        font-size: 14px !important;
+      }
+    }
+  }
+} 
+
+@media screen and(max-width: 400px) {
+  .headerPadding{
+    padding-left: 0;
+  }
+  .mainScroll-subdealer {
+    width: calc(49vh);
+  }
+}

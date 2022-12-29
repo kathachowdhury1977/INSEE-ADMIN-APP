@@ -1,0 +1,44 @@
+.pCalFormControll {
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    .MuiFormControl-root{
+        width: 90%;
+    }
+}
+.addPointsRules{
+    margin: 1% 0 1% 0;
+}
+.btncolor{
+    background-color: #FF0000 !important;
+    color: #f5f5f5 !important;
+    white-space: nowrap
+}
+.BtnSPointContainer{
+    margin-top: 8px;
+    text-align: center;
+}
+.BtnSPointContainer .SaveBtn {
+    background-color: #FF0000;
+    color: #f5f5f5;
+}
+
+.BtnSPointContainer .SaveBtn:hover{
+    background-color: #FF0000;
+    color: #f5f5f5;
+}
+
+.DeleteRuleContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    .SaveCancelBtn{
+        margin: 10% 0 0 5%;
+        display: flex;
+        justify-content: space-between;
+        .ConfirmBtn{
+            background-color: #FF0000;
+            color: #f5f5f5;
+        }
+        
+    }
+}

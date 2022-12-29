@@ -1,0 +1,38 @@
+.InseePlusUsr{
+    margin-left: 15px;
+}
+.ModulesAllowed{
+    margin-left: 15px;
+    .ModulesAllowedChkBox{
+        margin-left: -10px;
+    }
+}
+.SavingBtn{
+    color: blue;
+}
+.ErrorMsg{
+    color: #FF0000;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.SuccessMsg{
+    color: green;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 15px;
+
+}
+.SaveCancelBtn{
+    margin: 10% 0 0 5%;
+    display: flex;
+    justify-content: space-between;
+    .SaveBtn{
+        background-color: #FF0000;
+        color: #f5f5f5;
+        &:hover {
+            background-color: #FF0000;
+            color: #f5f5f5;
+        }
+    }   
+}

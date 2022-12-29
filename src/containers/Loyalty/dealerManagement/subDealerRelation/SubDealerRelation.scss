@@ -1,0 +1,52 @@
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 1023;
+$phones-only: "(max-width:#{$screen-xs-max})";
+$tablets-only: "(min-width:#{$screen-sm-min}) and (max-width:#{$screen-sm-max})";
+
+.ExportAndSearchContainer {
+  position: absolute;
+  display: flex;
+  right: 10px;
+}
+.Action {
+  .EditIcon {
+    margin-left: 20%;
+  }
+  .DeleteIcon {
+    margin-left: 20%;
+  }
+}
+.MarkDelChkBox {
+  // margin-left: 30%;
+}
+.user_image {
+  height: 42px;
+  width: 43px;
+  border-radius: 40%;
+  margin-right: 7px;
+}
+.ContactContainer {
+  margin: 2% 0 2% 0;
+  .AddAndSearch {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    .AddContactBtn {
+      background-color: #ff0000;
+      color: #f5f5f5;
+    }
+  }
+}
+.DealerDataGridContainer {
+  height: calc(100vh - 290px);
+  width: 100%;
+  margin-left: 10px;
+}
+
+@media #{$phones-only} {
+  .ExportAndSearchContainer {
+    position: absolute !important;
+    display: flex !important;
+  }
+}

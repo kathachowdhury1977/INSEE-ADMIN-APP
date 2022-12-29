@@ -1,0 +1,14 @@
+.DeleteContactContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    .SaveCancelBtn{
+        margin: 10% 0 0 5%;
+        display: flex;
+        justify-content: space-between;
+        .ConfirmBtn{
+            background-color: #FF0000;
+            color: #f5f5f5;
+        }
+        
+    }
+}

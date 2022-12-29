@@ -1,0 +1,148 @@
+.dashboard_sectionBox{
+    width: 100%;  
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    .styleIcon{
+        font-size: 42px;
+        color: #1472a9;
+    }
+
+    .BlueText{
+        color: #1472a9;
+        margin-bottom: 0px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+
+    .BlackText{
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+
+    .leftLine{
+        border-left: 1px solid #bbb;
+        border-right: 1px solid #bbb;
+    }
+
+    .lightText{
+        color: #828282;
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .social-links{
+        font-size: 11px;
+        color: #1472a9;
+        font-weight: 700;
+        padding-top: 6px;
+
+
+        span{
+            margin: 0px 6px;
+        }
+    }
+
+    .bottom-links{
+        font-size: 11px;
+        font-weight: 700;
+        padding-top: 6px;
+
+        .ml-one{
+            margin-left: 35px;
+        }
+
+        .ml-two{
+            margin-left: 68px;
+        }
+
+        .ml-three{
+            margin-left: 63px;
+        }
+
+        .ml-four{
+            margin-left: 50px;
+        }
+
+        .ml-five{
+            margin-left: 76px;
+        }
+
+        .ml-six{
+            margin-left: 92px;
+        }
+
+        .ml-seven{
+            margin-left: 78px;
+        }
+
+        .ml-eight{
+            margin-left: 108px;
+        }
+
+        .ml-nine{
+            margin-left: 80px;
+        }
+    }
+}
+
+
+.case_summary {
+    p {
+      font-size: 11px;
+      color: #1472a9;
+      font-weight: 700;
+
+    }
+
+    span {
+      font-size: 11px;
+    }
+
+    .case_sumaryOne {
+       padding: 0px;
+       min-width: 11%;
+    }
+    .case_sumaryTwo {
+        padding: 0px;
+        min-width: 11%;
+    }
+    .case_sumaryThree {
+        padding: 0px;
+        min-width: 8%;
+    }
+    .case_sumaryFour {
+        padding: 0px;
+        min-width: 8%;
+    }
+
+    .case_sumaryFive {
+        padding: 0px;
+        min-width: 16%;
+    }
+
+    .case_sumarySix {
+       padding: 0px;
+       min-width: 8%;
+    }
+    .case_sumarySeven {
+        padding: 0px;
+        min-width: 14%;
+    }
+    .case_sumaryEight {
+        padding: 0px;
+        min-width: 14%;
+    }
+    .case_sumaryNine {
+        padding: 0px;
+        min-width: 9%;
+    }
+}

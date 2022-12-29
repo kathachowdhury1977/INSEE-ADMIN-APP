@@ -1,0 +1,121 @@
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 1023;
+$phones-only: "(max-width:#{$screen-xs-max})";
+$tablets-only: "(min-width:#{$screen-sm-min}) and (max-width:#{$screen-sm-max})";
+
+.AlertMsg {
+  margin-bottom: 10px;
+}
+.SubDealerInfoHeader {
+  width: 100%;
+  background-color: #eeeeee;
+  font-family: Arial;
+  font-size: 14px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  .SubDealerNumber {
+    h6 {
+      display: inline;
+    }
+    margin: 0 10%;
+  }
+  .SubDealerName {
+    h6 {
+      display: inline;
+    }
+    margin: 0 10%;
+  }
+}
+.ControllForm {
+  padding-left: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  .MuiInputLabel-root {
+    font-family: Arial;
+  }
+  .CnctCheckBox {
+    display: flex;
+    margin-right: 0;
+  }
+  .SocialIdHeading {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .SocialIds {
+    margin-top: 7%;
+  }
+  .userImageContainer {
+    border: 1px solid lightgray;
+    width: 90%;
+    height: 14%;
+    margin-left: 1%;
+    margin-top: 1%;
+    .usrImgHeader {
+      position: relative;
+      left: 36%;
+    }
+    .ImgUploadBtn {
+      margin: 1% 0 0 8%;
+    }
+    .ImgSubmitBtn {
+      margin: 5% 0 0 8%;
+    }
+    .ImgTxt {
+      position: relative;
+      top: 5%;
+    }
+  }
+  .BtnContainer {
+    position: relative;
+    top: 6%;
+    .SaveBtn {
+      background-color: #ff0000;
+      color: #f5f5f5;
+      margin-right: 36%;
+      &:hover {
+        background-color: #ff0000;
+        color: #f5f5f5;
+      }
+    }
+  }
+}
+
+@media #{$phones-only} {
+  .SubDealerInfoHeader {
+    flex-direction: column;
+    height: auto;
+  }
+  Form {
+    .CnctCheckBox {
+      margin-right: 25%;
+    }
+    .userImageContainer {
+      margin: 4% 0 11% 5%;
+      .usrImgHeader {
+        left: 25%;
+      }
+      .ImgUploadBtn {
+        margin: 5% 0 0 15%;
+      }
+      .ImgTxt {
+        left: 13%;
+        white-space: pre;
+      }
+      .ImgSubmitBtn {
+        margin: 5% 0 0 25%;
+      }
+    }
+    .BtnContainer {
+      button {
+        width: 90%;
+      }
+      .SaveBtn {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

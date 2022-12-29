@@ -1,0 +1,79 @@
+@import "../../assets/scss/colors.scss";
+
+.skin-blue {
+	
+	.content-header {
+		background: transparent;
+	}
+	
+	.main-sidebar {
+		background-color: #f5f5f5;
+
+		.main_logo {
+			display: flex;
+			margin: 40px auto;
+			justify-content: center;
+			align-items: center;
+
+			img {
+				width: 70px;
+				height: auto;
+			}
+		}
+		
+		.logo{
+			margin: 18px auto;
+		}
+	}
+	
+	.sidebar-menu {
+		    overflow-x: hidden !important;
+			overflow-y: scroll !important;
+			height: calc(80vh - 40px);
+	
+		>li {
+			>a {
+				white-space: nowrap;
+				width: 100%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				padding: 7px 12px 7px 15px;
+				color:#000;
+				font-size: 14px;
+				font-weight: 400;
+			}
+			&:hover {
+				overflow-x: hidden !important;
+				// overflow-y: scroll !important;
+				>a {
+					color: red;
+                    background-color: rgba(50, 86, 145, 0.15);
+				}
+			}
+		}
+		>li.active {
+			>a {
+				color:red !important;
+				background-color: rgba(50, 86, 145, 0.15)  !important;
+			}
+		}
+		>li.menu-open {
+			>a {
+				color: $white-color;
+				background-color: rgba(50, 86, 145, 0.15);
+				font-weight: 600;
+			}
+		}
+	}
+	.sidebar {
+		a {
+			color: #000;
+			font-size: 15px;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+

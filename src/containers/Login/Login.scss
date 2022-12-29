@@ -1,0 +1,230 @@
+@import "../../assets/scss/colors.scss";
+
+.LoginContainer {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: grid;
+
+  .login_sec {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: -webkit-fill-available;
+
+   .login_left_sec {
+      img {
+        width: 118px;
+        height: 108px;
+        margin-bottom: 10px;
+      }
+      .sencond-logo {
+        height: auto !important;
+        width: auto !important;
+        margin-left: 5px;
+      }
+   }
+  }
+  .head_txt {
+   color:#282828;
+   font-size: 45px;
+   line-height: 65px;
+   font-weight: 700;
+  }
+
+  .sub_head {
+    font-size: 15px;
+    line-height: 24px;
+    color: #6c6c6c;
+  }
+
+  .address_dtl {
+    margin-top: 0px;
+     
+    span {
+       color:#000000;
+       font-size: 22px;
+       line-height: 46px;
+       display: inline-flex;
+       margin-bottom: 12px;
+       width: 100%;
+
+       i {
+         color: red;
+         border:1px solid red;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         margin-right: 15px;
+       }
+    }
+  }
+
+  .login_img {
+    background-image: url(../../assets/img/login_bg.png);
+    min-height:610px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 94% 92%;
+    margin-top: -70px;
+
+  }
+
+  .login_right_sec {
+    width: 440px;
+    padding: 50px 47px 50px;
+    box-shadow: 0 0 14px 6px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    top: 80px;
+    position: absolute;
+    left: 75px;
+
+    .title-heading {
+      span {
+        color: red !important;
+      }
+    }
+  }
+
+  .Login_Section {
+     
+    padding: 0px;
+    margin-top: 20px;
+
+    form { 
+
+      input {
+        border-left: 2px solid #ff0000 !important;
+      }
+      
+      input:focus {
+        font-size: 12px;
+      }
+
+      img {
+        height: 20px !important;
+        margin-bottom: 30px;
+        width: auto !important;
+        position: absolute;
+        right: 7px;
+        top: 8px;
+        background-color: #fff;
+      }
+
+      button {
+        color:#fff;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+        margin: 11px 0 0 3px;
+        padding: 16px;
+        background-color: #ff0000;
+      }
+    }
+  }
+
+  
+}
+
+
+.bottom_logo {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+
+.form_section {
+
+.inputBox {
+  a {
+    font-size: 13px;
+    color: red;
+    margin-top: 19px;
+    display: inherit;
+  }
+}
+  
+	.inputBox{
+		position: relative;
+		box-sizing: border-box;
+		margin-bottom: 40px;
+  
+	}
+	.inputBox .inputText{
+		position: absolute;
+		font-size: 24px;
+		line-height: 50px;
+		transition: .5s;
+		opacity: .5;
+	}
+	.inputBox .input{
+		position: relative;
+		width: 100%;
+    height: 40px;
+    padding-left: 15px;
+		background: transparent;
+		border: none;
+		outline: none;
+		font-size: 15px;
+		border-bottom: 1px solid rgba(0,0,0,.5);
+	
+	}
+}
+
+@media (max-width:768px) {
+  .LoginContainer {
+    
+    .login_img {
+      margin-top: -10px;
+    }
+
+    .login_left_sec {
+      text-align: center;
+    }
+
+    .login_right_sec {
+      width: 410px;
+      left: 0px;
+    }
+
+    .head_txt {
+      font-size: 28px;
+    }
+
+    .address_dtl span {
+      font-size: 14px;
+
+      i {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  .languageselector {
+    font-size: 12px;
+  }
+}
+
+@media screen and(max-width: 991px) {
+  .LoginContainer .login_right_sec {
+    width: 412px !important;
+    left: 35px !important;
+  }
+}
+
+@media screen and(max-width: 830px) {
+  .LoginContainer .login_right_sec {
+    width: 400px !important;
+    left: 30px !important;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .LoginContainer .login_right_sec {
+    width: 400px !important;
+    left: 130px !important;
+  }
+}

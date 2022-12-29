@@ -1,0 +1,66 @@
+.dashboard_sectionBox{
+    width: 100%;  
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    .styleIcon{
+        font-size: 42px;
+        color: #1472a9;
+    }
+
+    .BlueText{
+        color: #1472a9;
+        margin-bottom: 0px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+
+    .BlackText{
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+
+    .leftLine{
+        border-left: 1px solid #bbb;
+        padding-right: 6px;
+        padding-left: 6px;
+        text-align: center;
+    }
+
+    .lightText{
+        color: #828282;
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+.chart_secton {
+    .MuiTypography-colorInitial {
+        font-size: 16px !important;
+        text-align: left;
+        margin: 15px 0px 30px;
+        font-weight: 600;
+    }
+
+    #top-left {
+        width: 0px !important;
+    }
+
+    svg {
+        height: 100px !important;
+    }
+
+    .MuiList-root {
+        svg {
+            height: 25px !important;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.search {
+    .MuiPaper-root {      
+       box-shadow: none !important;
+       border: 1px solid #ccc;
+       padding: 0px !important;
+       border-radius: 0px !important;
+
+    }
+
+    .MuiIconButton-root:hover {
+        background-color: red !important;
+    }
+
+    .MuiIconButton-root {
+        background-color: #333;
+        color: #fff;
+        padding: 5px;
+        border-radius: 0px;
+
+        &:hover {
+            background-color: red;
+        }
+    }
+}
+
+.AutoComplete{
+    padding: 11px !important;    
+}
